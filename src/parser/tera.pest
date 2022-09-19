@@ -146,13 +146,13 @@ test      = { dotted_ident ~ "is" ~ test_call }
 /// TERA
 
 // All the blocks that Tera recognises
-variable_start = { "{{-" | "{{" }
-variable_end   = { "-}}" | "}}" }
+variable_start = { "<<-" | "<<" }
+variable_end   = { "->>" | ">>" }
 // whitespace control
-tag_start      = { "{%-" | "{%" }
-tag_end        = { "-%}" | "%}" }
-comment_start  = { "{#-" | "{#" }
-comment_end    = { "-#}" | "#}" }
+tag_start      = { "<#-" | "<#" }
+tag_end        = { "-#>" | "#>" }
+comment_start  = { "<%-" | "<%" }
+comment_end    = { "-%>" | "%>" }
 block_start    = _{ variable_start | tag_start | comment_start }
 
 comment_text       = ${ (!(comment_end) ~ ANY)+ }
