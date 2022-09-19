@@ -5,10 +5,10 @@ authors = ["Krish Shah", "Vincent Prouillet <hello@prouilletvincent.com>"]
 license = "MIT"
 readme = "README.md"
 description = "LaTeX Template engine based on Tera"
-keywords = ["template", "latex"]
+keywords = ["template", "latex", "tera"]
 categories = ["template-engine"]
 edition = "2018"
-include = ["/src/**/*", "/LICENSE", "/README.md", "/CHANGELOG.md"]
+include = ["/src/**/*", "/LICENSE", "/README.md"]
 
 [dependencies]
 globwalk = "0.8.1"
