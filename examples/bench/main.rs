@@ -1,7 +1,7 @@
-extern crate tera;
+extern crate latera;
 
 use std::alloc::System;
-use tera::{Context, Tera};
+use latera::{Context, Tera};
 
 #[global_allocator]
 static GLOBAL: System = System;

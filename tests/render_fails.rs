@@ -1,9 +1,9 @@
-extern crate tera;
+extern crate latera;
 #[macro_use]
 extern crate serde_derive;
 
 use std::error::Error;
-use tera::{Context, Result, Tera};
+use latera::{Context, Result, Tera};
 
 mod common;
 use crate::common::{Product, Review};

@@ -1,11 +1,11 @@
 #![feature(test)]
 extern crate serde_json;
-extern crate tera;
+extern crate latera;
 extern crate test;
 #[macro_use]
 extern crate serde_derive;
 
-use tera::{Context, Tera};
+use latera::{Context, Tera};
 
 #[derive(Serialize)]
 struct DataWrapper {

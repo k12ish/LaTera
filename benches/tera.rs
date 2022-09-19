@@ -1,11 +1,11 @@
 #![feature(test)]
-extern crate tera;
+extern crate latera;
 extern crate test;
 #[macro_use]
 extern crate serde_derive;
 extern crate serde_json;
 
-use tera::{Context, Template, Tera, Value};
+use latera::{Context, Template, Tera, Value};
 
 static VARIABLE_ONLY: &'static str = "{{product.name}}";
 

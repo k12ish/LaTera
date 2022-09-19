@@ -1,8 +1,8 @@
 #![feature(test)]
-extern crate tera;
+extern crate latera;
 extern crate test;
 
-use tera::escape_html;
+use latera::escape_html;
 
 const NO_HTML_SHORT: &'static str = "A paragraph without HTML characters that need to be escaped.";
 const NO_HTML_LONG: &'static str = "Another paragraph without characters that need to be escaped. This paragraph is a bit longer, as sometimes there can be large paragraphs that don't any special characters, e.g., in novels or whatever.";

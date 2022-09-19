@@ -1,11 +1,11 @@
 extern crate serde;
 extern crate serde_json;
-extern crate tera;
+extern crate latera;
 
 use std::fs::File;
 use std::io::prelude::*;
 
-use self::tera::Template;
+use self::latera::Template;
 
 #[derive(Debug, Serialize)]
 pub struct Product {
