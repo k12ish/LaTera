@@ -1,7 +1,6 @@
 # LaTera
 
-LaTera is a tera-based template engine. It changes Tera's syntax to be more LaTeX compatible. Here's an example comparing Tera on HTML vs LaTera on LaTeX.
-
+Use Tera for HTML:
 ```jinja2
 <title>{% block title %}{% endblock title %}</title>
 <ul>
@@ -12,6 +11,7 @@ LaTera is a tera-based template engine. It changes Tera's syntax to be more LaTe
 {# a comment #}
 ```
 
+Use LaTera for LaTeX:
 ```latex
 \section{ <# block section #><# endblock section #> }
 \begin{itemize}
@@ -21,6 +21,11 @@ LaTera is a tera-based template engine. It changes Tera's syntax to be more LaTe
 \end{itemize}
 <% a comment %>
 ```
+
+## Objectives
+
+- Avoid templating issues with curly brackets in your LaTex code
+- Be somewhat compatible with LaTeX syntax highlighting
 
 ## Changelog
 
