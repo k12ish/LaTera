@@ -5,6 +5,7 @@ authors = ["Krish Shah", "Vincent Prouillet <hello@prouilletvincent.com>"]
 license = "MIT"
 readme = "README.md"
 description = "LaTeX Template engine based on Tera"
+repository = "https://github.com/k12ish/LaTera"
 keywords = ["template", "latex", "tera"]
 categories = ["template-engine"]
 edition = "2018"
