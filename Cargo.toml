@@ -1,13 +1,11 @@
 [package]
-name = "tera"
-version = "1.17.1"
-authors = ["Vincent Prouillet <hello@prouilletvincent.com>"]
+name = "latera"
+version = "0.0.1"
+authors = ["Krish Shah", "Vincent Prouillet <hello@prouilletvincent.com>"]
 license = "MIT"
 readme = "README.md"
-description = "Template engine based on Jinja2/Django templates"
-homepage = "https://tera.netlify.com/"
-repository = "https://github.com/Keats/tera"
-keywords = ["template", "html", "django", "markup", "jinja2"]
+description = "LaTeX Template engine based on Tera"
+keywords = ["template", "latex"]
 categories = ["template-engine"]
 edition = "2018"
 include = ["/src/**/*", "/LICENSE", "/README.md", "/CHANGELOG.md"]
@@ -47,6 +45,3 @@ builtins = ["urlencode", "slug", "humansize", "chrono", "chrono-tz", "rand"]
 urlencode = ["percent-encoding"]
 preserve_order = ["serde_json/preserve_order"]
 date-locale = ["builtins", "chrono/unstable-locales"]
-
-[badges]
-maintenance = { status = "actively-developed" }
